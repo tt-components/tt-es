@@ -1,0 +1,34 @@
+{
+  "name": "tt-es",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tt-components/tt-es",
+  "authors": [
+    "ttbox.eu@gmail.com"
+  ],
+  "description": "Elasticsearch Polymer Web Component",
+  "main": "tt-es-search.html",
+  "keywords": [
+    "polymer",
+    "web-component",
+    "elasticsearch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+ "dependencies": {
+    "polymer": "Polymer/polymer#^0.4.2",
+    "platform": "Polymer/platform#^0.4.2",
+    "elasticsearch": "~2.4.1",
+    "elastic.js": "~1.2.0"
+  },
+  "resolutions": {
+    "platform": "^0.4.2",
+    "polymer": "^0.4.2" 
+  }
+}
